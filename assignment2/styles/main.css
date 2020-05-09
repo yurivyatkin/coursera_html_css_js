@@ -138,7 +138,19 @@ header h1 {
 }
 
 main article h1 {
+  border-color: slategrey;
+  border-style: solid;
+  border-width: 1px;
+  float: right;
   font-size: 1.25em;
+  padding-bottom: 0.25em;
+  padding-top: 0.25em;
+  text-align: center;
+  width: 8em;
+}
+
+main article p {
+  clear: both;
 }
 
 header {
@@ -150,4 +162,16 @@ header {
 main {
   padding-left: 2em;
   padding-right: 2em;
+}
+
+.bg-darksalmon {
+  background-color: darksalmon;
+}
+
+.bg-brown {
+  background-color: brown;
+}
+
+.bg-darkkhaki {
+  background-color: darkkhaki;
 }
