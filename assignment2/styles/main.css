@@ -128,7 +128,12 @@ table {
   border-spacing: 0;
 }
 
-/* Base font */
+/* Custom styles */
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -200,4 +205,40 @@ article p {
 
 .white {
   color: white;
+}
+
+/* Responsive framework  */
+
+@media (min-width: 768px) {
+  .chicken, .beef {
+    float: left;
+    width: 50%;
+  }
+  .chicken article {
+    margin-right: 0.5em;
+  }
+  .beef article {
+    margin-left: 0.5em;;
+  }
+  .sushi {
+    float: left;
+    width: 100%
+  }
+}
+
+@media (min-width: 992px) {
+  .chicken, .beef, .sushi {
+    float: left;
+    width: 33.33%;
+  }
+  .chicken article {
+    margin-right: 0.5em;
+  }
+  .beef article {
+    margin-left: 0.5em;;
+    margin-right: 0.5em;;
+  }
+  .sushi article {
+    margin-left: 0.5em;;
+  }
 }
