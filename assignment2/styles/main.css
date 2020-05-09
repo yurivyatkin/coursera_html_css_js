@@ -146,3 +146,8 @@ header {
   padding-bottom: 1.5em;
   text-align: center;
 }
+
+main {
+  padding-left: 2em;
+  padding-right: 2em;
+}
