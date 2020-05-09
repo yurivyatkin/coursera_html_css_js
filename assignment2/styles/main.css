@@ -140,3 +140,9 @@ header h1 {
 main article h1 {
   font-size: 1.25em;
 }
+
+header {
+  padding-top: 2em;
+  padding-bottom: 1.5em;
+  text-align: center;
+}
