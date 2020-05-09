@@ -133,6 +133,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+  font-weight: bold;
+}
+
 header h1 {
   font-size: 1.75em;
 }
@@ -192,4 +196,8 @@ article p {
 
 .bg-darkkhaki {
   background-color: darkkhaki;
+}
+
+.white {
+  color: white;
 }
