@@ -1,0 +1,16 @@
+.navbar-default {
+  background-color: lightgray;
+}
+
+article {
+  background-color: lightgray;
+  padding-top: 0.5em;
+}
+
+article h1 {
+  font-size: 1.75em;
+}
+
+article p {
+  padding: 0.5em;
+}
