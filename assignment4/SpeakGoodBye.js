@@ -1,4 +1,4 @@
-(function () {
+(function (window) {
   // NOTE! The steps in this file are basically identical to the ones you
   // performed in the SpeakHello.js file.
 
@@ -22,5 +22,5 @@
 
   // STEP 9: Expose the 'byeSpeaker' object to the global scope. Name it
   // 'byeSpeaker' on the global scope as well.
-  // xxxx.xxxx = byeSpeaker;
-})();
+  window.byeSpeaker = byeSpeaker;
+})(window);
