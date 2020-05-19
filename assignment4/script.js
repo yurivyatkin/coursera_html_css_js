@@ -42,7 +42,8 @@
   // using the 'speak' method or either helloSpeaker's or byeSpeaker's
   // 'speak' method.
   // See Lecture 50, part 1
-  for (/* fill in parts of the 'for' loop to loop over names array */) {
+  // /* fill in parts of the 'for' loop to loop over names array */
+  for (var idx = 0; idx < names.length; idx++) {
 
     // STEP 11:
     // Retrieve the first letter of the current name in the loop.
